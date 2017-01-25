@@ -697,6 +697,7 @@
             // notifyIcon1
             // 
             this.notifyIcon1.ContextMenuStrip = this.notifyIconContextMenuStrip1;
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
             this.notifyIcon1.Text = "EDDiscovery";
             this.notifyIcon1.DoubleClick += new System.EventHandler(this.notifyIcon1_DoubleClick);
             // 
@@ -707,7 +708,7 @@
             this.notifyIconMenu_Hide,
             this.notifyIconMenu_Exit});
             this.notifyIconContextMenuStrip1.Name = "notifyIconContextMenuStrip1";
-            this.notifyIconContextMenuStrip1.Size = new System.Drawing.Size(172, 92);
+            this.notifyIconContextMenuStrip1.Size = new System.Drawing.Size(172, 70);
             // 
             // notifyIconMenu_Open
             // 
